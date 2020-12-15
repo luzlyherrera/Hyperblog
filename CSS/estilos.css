@@ -1,4 +1,5 @@
 body {
+  background: #1e1f24;
   text-align: center;
   columns: #333;
   margin: 0;
@@ -8,7 +9,7 @@ body {
 }
 
 #header {
-  background: #33a;
+  background: #37488b;
   box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.5);
   color: white;
   font-weight: bold;
@@ -20,6 +21,11 @@ body {
   padding: 0 0 0 1em;
   font-weight: normal;
   font-size: 0.8em;
+}
+
+#header #icono {
+  width: 30px;
+  vertical-align: middle;
 }
 
 #container {
@@ -35,5 +41,6 @@ body {
 }
 
 #post {
+  background: white;
   padding: 1em;
 }
